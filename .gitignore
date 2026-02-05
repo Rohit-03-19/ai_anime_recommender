@@ -1,0 +1,14 @@
+# Secret file (No slash!)
+.env
+
+# Virtual environments (These are folders, so slashes are fine here)
+.env/
+venv/
+env/
+
+# Python internals
+__pycache__/
+*.pyc
+
+# Local DBs
+chroma_db/

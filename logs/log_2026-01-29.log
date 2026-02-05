@@ -1,0 +1,14 @@
+2026-01-29 19:48:52,768 - INFO - Intializing Recommdation Pipeline
+2026-01-29 19:48:52,777 - INFO - Use pytorch device_name: cpu
+2026-01-29 19:48:52,777 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-01-29 19:49:02,372 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-01-29 19:49:06,356 - INFO - Pipleine intialized sucesfully...
+2026-01-29 19:49:33,248 - INFO - Recived a query light hearted anime with school 
+2026-01-29 19:49:35,078 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-29 19:49:35,134 - INFO - Recommendation generated sucesfulyy...
+2026-01-29 19:49:56,932 - INFO - Recived a query Mountains 
+2026-01-29 19:49:58,118 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-29 19:49:58,118 - INFO - Recommendation generated sucesfulyy...
+2026-01-29 19:50:35,050 - INFO - Recived a query full fighting scenes
+2026-01-29 19:50:36,129 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-01-29 19:50:36,136 - INFO - Recommendation generated sucesfulyy...
