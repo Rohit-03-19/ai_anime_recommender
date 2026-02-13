@@ -1,0 +1,155 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AI Anime Explorer | Premium Edition</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&family=Montserrat:wght@900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="/static/css/style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <h1 class="main-title">AI Anime Explorer</h1>
+      <p class="sub-title">
+        Crafting your unique journey through the world of anime
+      </p>
+    </header>
+
+    <nav class="nav-dock">
+      <button class="nav-btn" onclick="switchPage('poster')">
+        🖼️ Generate Poster
+      </button>
+      <button class="nav-btn active" onclick="switchPage('recommend')">
+        ✨ Recommend
+      </button>
+      <button class="nav-btn" onclick="switchPage('watchlist')">
+        📑 My Watchlist
+      </button>
+      <button class="nav-btn" onclick="switchPage('watch')">
+        📺 Watch Anime
+      </button>
+      <button class="nav-btn" onclick="switchPage('shop')">🛒 Shopping</button>
+    </nav>
+
+    <main class="content-wrapper">
+      <section id="recommend-section">
+        <div class="search-wrapper">
+          <input
+            type="text"
+            id="user-query"
+            placeholder="Describe your vibe (e.g., 'A rainy day in a futuristic Tokyo')..."
+          />
+          <button id="search-trigger" onclick="handleRecommendation()">
+            Analyze Vibe
+          </button>
+        </div>
+
+        <div id="status-box" class="hidden">
+          <div class="spinner"></div>
+          <span id="status-text"
+            >🔍 Analyzing Vibe & Querying Vector DB...</span
+          >
+        </div>
+
+        <div id="results-container" class="hidden">
+          <h2 class="section-heading">✨ Personalized Matches</h2>
+          <div class="poster-grid" id="poster-grid"></div>
+
+          <h3 class="section-heading">📝 Detailed Narrative Connection</h3>
+          <div id="narrative-container"></div>
+        </div>
+      </section>
+
+      <section id="placeholder-section" class="hidden">
+        <div class="mal-card" style="text-align: center">
+          <h2 id="placeholder-title">Feature Name</h2>
+          <p id="placeholder-text">
+            This feature is currently being integrated into the production
+            environment.
+          </p>
+        </div>
+      </section>
+
+      <section class="trending-section">
+        <h2 class="trending-main-title">🔥 Trending Now</h2>
+        <div class="trending-grid">
+          <div class="mal-card">
+            <div class="card-header">
+              Top Anime
+              <span
+                class="more-link"
+                id="expand-top-anime"
+                onclick="toggleTop50()"
+              >
+                More >
+              </span>
+            </div>
+            <div id="top-anime-list-container" class="list-container-static">
+              <div class="spinner"></div>
+            </div>
+          </div>
+
+          <div class="mal-card">
+            <div class="card-header">
+              Popular Characters
+              <span
+                class="more-link"
+                id="expand-popular-chars"
+                onclick="toggleTop50Characters()"
+                >More >
+              </span>
+            </div>
+            <div
+              id="popular-characters-container"
+              class="list-container-static"
+            >
+              <div class="spinner"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="main-footer">
+      <hr class="footer-divider" />
+      <div class="footer-content">
+        <p>
+          Built with ❤️ by <strong>Rohit Parida</strong> | 6th Sem CSE Portfolio
+          Project
+        </p>
+        <p class="tech-info">
+          Powered by Groq & ChromaDB. Real-time data via Jikan API.
+        </p>
+      </div>
+    </footer>
+    <div
+      id="top-anime-modal"
+      class="modal-overlay hidden"
+      role="dialog"
+      aria-modal="true"
+      aria-labelledby="modal-title"
+    >
+      <div class="modal-content mal-card">
+        <div class="card-header">
+          <span id="modal-title">Top 50 Global Anime</span>
+          <span
+            class="close-modal"
+            onclick="closeTopAnime()"
+            aria-label="Close modal"
+            >&times;</span
+          >
+        </div>
+        <div id="top-anime-scroll-list" class="scrollable-list">
+          <div class="spinner"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="/static/js/main.js"></script>
+  </body>
+</html>

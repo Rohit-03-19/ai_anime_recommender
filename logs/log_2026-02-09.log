@@ -1,0 +1,11 @@
+2026-02-09 17:33:15,538 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-09 17:33:15,561 - ERROR - Failed to initialize pipeline: Could not import sentence_transformers python package. Please install it with `pip install sentence-transformers`.
+2026-02-09 18:07:54,981 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-09 18:07:54,990 - INFO - Use pytorch device_name: cpu
+2026-02-09 18:07:54,990 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-09 18:08:01,635 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-09 18:08:02,917 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-09 18:08:04,641 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-09 18:08:23,523 - INFO - Received query: childhood vibes with laughter
+2026-02-09 18:09:07,112 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-09 18:09:07,161 - INFO - Recommendation generated successfully.

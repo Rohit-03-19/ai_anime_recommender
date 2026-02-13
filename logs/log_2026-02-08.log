@@ -1,0 +1,22 @@
+2026-02-08 20:44:42,664 - INFO - Intializing Recommdation Pipeline
+2026-02-08 20:44:42,673 - INFO - Use pytorch device_name: cpu
+2026-02-08 20:44:42,673 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-08 20:44:51,350 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-08 20:44:55,071 - INFO - Pipleine intialized sucesfully...
+2026-02-08 20:45:23,137 - INFO - Recived a query Friendly vibes
+2026-02-08 20:45:25,187 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-08 20:45:25,232 - INFO - Recommendation generated sucesfulyy...
+2026-02-08 21:22:57,531 - INFO - Intializing Recommdation Pipeline
+2026-02-08 21:22:57,544 - INFO - Use pytorch device_name: cpu
+2026-02-08 21:22:57,546 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-08 21:23:06,978 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-08 21:23:10,567 - INFO - Pipleine intialized sucesfully...
+2026-02-08 21:32:23,206 - INFO - Recived a query friendly vibes
+2026-02-08 21:32:24,992 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-08 21:32:25,035 - INFO - Recommendation generated sucesfulyy...
+2026-02-08 21:41:12,986 - INFO - Recived a query friendly vibes
+2026-02-08 21:41:14,916 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-08 21:41:14,928 - INFO - Recommendation generated sucesfulyy...
+2026-02-08 21:41:59,197 - INFO - Recived a query childhood
+2026-02-08 21:42:00,227 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-08 21:42:00,229 - INFO - Recommendation generated sucesfulyy...

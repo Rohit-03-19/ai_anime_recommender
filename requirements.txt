@@ -1,10 +1,19 @@
+# --- WEB CORE (FastAPI Stack) ---
+fastapi
+uvicorn[standard]
+jinja2
+python-multipart
 
-langchain
+# --- AI & RAG ENGINE ---
+langchain-core
 langchain-community
-langchain_groq
+langchain-groq
+langchain-huggingface
 chromadb
-streamlit
+sentence-transformers
+
+# --- UTILITIES & DATA ---
 pandas
 python-dotenv
-sentence-transformers
-langchain_huggingface
+requests
+httpx

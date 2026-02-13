@@ -1,0 +1,35 @@
+2026-02-13 09:48:52,071 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-13 09:48:52,071 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-13 09:48:52,077 - INFO - Use pytorch device_name: cpu
+2026-02-13 09:48:52,077 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-13 09:49:01,881 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-13 09:49:03,245 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-13 09:49:06,799 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-13 09:49:06,799 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-13 09:50:06,624 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-13 09:50:06,624 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-13 09:50:06,634 - INFO - Use pytorch device_name: cpu
+2026-02-13 09:50:06,634 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-13 09:50:13,474 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-13 09:50:13,634 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-13 09:50:15,213 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-13 09:50:15,213 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-13 09:50:38,667 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-13 09:50:39,042 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-13 09:51:12,453 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-13 09:51:12,661 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-13 09:52:29,666 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/characters?page=1 "HTTP/1.1 200 OK"
+2026-02-13 09:52:30,034 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/characters?page=2 "HTTP/1.1 200 OK"
+2026-02-13 09:53:05,714 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-13 09:53:06,022 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-13 09:53:10,011 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-13 09:53:10,321 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-13 09:55:14,813 - INFO - Received query: school vibes
+2026-02-13 09:55:16,220 - INFO - Backing off send_request(...) for 0.4s (requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))
+2026-02-13 09:55:17,710 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-13 09:55:17,778 - INFO - Recommendation generated successfully.
+2026-02-13 09:55:21,430 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=Sakigake!!%20Cromartie%20Koukou&limit=1 "HTTP/1.1 200 OK"
+2026-02-13 09:55:21,471 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=School%20Rumble&limit=1 "HTTP/1.1 200 OK"
+2026-02-13 09:55:21,832 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=Green%20Green&limit=1 "HTTP/1.1 200 OK"
+2026-02-13 09:57:47,434 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-13 09:57:47,725 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"

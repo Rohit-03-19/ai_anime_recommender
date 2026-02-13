@@ -1,0 +1,231 @@
+2026-02-12 13:43:40,136 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 13:43:40,145 - INFO - Use pytorch device_name: cpu
+2026-02-12 13:43:40,145 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 13:43:46,704 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 13:43:47,774 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 13:43:49,163 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 13:44:01,741 - INFO - Received query: friendly vibes
+2026-02-12 13:44:03,704 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 13:44:03,728 - INFO - Recommendation generated successfully.
+2026-02-12 14:22:21,991 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 14:22:21,991 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 14:22:21,994 - INFO - Use pytorch device_name: cpu
+2026-02-12 14:22:21,994 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 14:22:26,932 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 14:22:27,045 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 14:22:27,933 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 14:22:27,933 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 14:23:06,996 - INFO - Received query: firendly vibes
+2026-02-12 14:23:08,607 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 14:23:08,626 - INFO - Recommendation generated successfully.
+2026-02-12 14:42:31,088 - INFO - Received query: friendly vibes
+2026-02-12 14:42:34,568 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 14:42:34,615 - INFO - Recommendation generated successfully.
+2026-02-12 14:47:52,952 - INFO - Received query: friendly vibes
+2026-02-12 14:47:54,797 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 14:47:54,805 - INFO - Recommendation generated successfully.
+2026-02-12 14:48:09,392 - INFO - Received query: school vibes
+2026-02-12 14:48:11,520 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 14:48:11,534 - INFO - Recommendation generated successfully.
+2026-02-12 14:54:57,074 - INFO - Received query: friendly vibes
+2026-02-12 14:54:58,479 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 14:54:58,483 - INFO - Recommendation generated successfully.
+2026-02-12 14:55:07,834 - INFO - Received query: friendly vibes
+2026-02-12 14:55:09,416 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 14:55:09,419 - INFO - Recommendation generated successfully.
+2026-02-12 14:59:14,758 - INFO - Received query: school vibes
+2026-02-12 14:59:16,316 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 14:59:16,334 - INFO - Recommendation generated successfully.
+2026-02-12 15:04:01,403 - INFO - \U0001f6d1 Shutting down...
+2026-02-12 15:06:46,270 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:06:46,270 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:06:46,273 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:06:46,273 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:06:52,281 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:06:52,411 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:06:53,484 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:06:53,485 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:11:09,531 - INFO - Received query: school vibes
+2026-02-12 15:11:11,104 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 15:11:11,130 - INFO - Recommendation generated successfully.
+2026-02-12 15:14:26,594 - INFO - \U0001f6d1 Shutting down...
+2026-02-12 15:14:37,773 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:14:37,773 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:14:37,777 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:14:37,777 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:14:43,400 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:14:43,551 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:14:44,595 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:14:44,595 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:18:46,520 - INFO - \U0001f6d1 Shutting down...
+2026-02-12 15:19:01,146 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:19:01,147 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:19:01,148 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:19:01,148 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:19:06,144 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:19:06,342 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:19:08,027 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:19:08,028 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:19:26,716 - INFO - \U0001f6d1 Shutting down...
+2026-02-12 15:19:59,041 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:19:59,041 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:19:59,044 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:19:59,044 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:20:04,088 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:20:04,233 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:20:05,577 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:20:05,578 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:22:40,567 - INFO - \U0001f6d1 Shutting down...
+2026-02-12 15:22:51,191 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:22:51,191 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:22:51,193 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:22:51,193 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:22:56,524 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:22:56,683 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:22:58,206 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:22:58,206 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:29:05,435 - INFO - \U0001f6d1 Shutting down...
+2026-02-12 15:29:17,028 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:29:17,029 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:29:17,031 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:29:17,031 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:29:22,741 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:29:22,888 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:29:23,985 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:29:23,986 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:30:15,218 - INFO - \U0001f6d1 Shutting down...
+2026-02-12 15:30:26,265 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:30:26,265 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:30:26,266 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:30:26,266 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:30:31,845 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:30:32,027 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:30:33,504 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:30:33,505 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:30:44,413 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:30:44,413 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:30:44,415 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:30:44,415 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:30:51,562 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:30:51,673 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:30:52,830 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:30:52,830 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:35:18,672 - INFO - Received query: school vibes
+2026-02-12 15:35:20,572 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 15:35:20,640 - INFO - Recommendation generated successfully.
+2026-02-12 15:35:22,490 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=Green%20Green&limit=1 "HTTP/1.1 200 OK"
+2026-02-12 15:35:22,740 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=Sakigake!!%20Cromartie%20Koukou&limit=1 "HTTP/1.1 200 OK"
+2026-02-12 15:35:22,792 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=School%20Rumble&limit=1 "HTTP/1.1 200 OK"
+2026-02-12 15:42:43,097 - INFO - \U0001f6d1 Shutting down AI Engine...
+2026-02-12 15:42:56,665 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 15:42:56,665 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 15:42:56,666 - INFO - Use pytorch device_name: cpu
+2026-02-12 15:42:56,666 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 15:43:02,654 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 15:43:02,835 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 15:43:04,390 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 15:43:04,390 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 15:43:06,784 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 15:43:07,815 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 15:43:14,299 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 15:43:14,857 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 15:59:30,378 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 15:59:30,881 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:06:16,331 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:06:16,813 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:06:50,238 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:06:50,607 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:06:57,218 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:06:57,774 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:09:05,637 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:09:05,878 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:09:48,522 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:09:48,901 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:10:24,767 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:10:24,900 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:10:26,459 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:10:26,834 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:12:36,425 - INFO - \U0001f6d1 Shutting down AI Engine...
+2026-02-12 16:12:52,343 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 16:12:52,343 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 16:12:52,345 - INFO - Use pytorch device_name: cpu
+2026-02-12 16:12:52,345 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 16:13:02,998 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 16:13:03,229 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 16:13:05,201 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 16:13:05,201 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 16:18:59,572 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:19:01,712 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:25:20,950 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:25:21,155 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:26:29,072 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:26:29,275 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:33:56,355 - INFO - \U0001f6d1 Shutting down AI Engine...
+2026-02-12 16:35:09,320 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 16:35:09,320 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 16:35:09,323 - INFO - Use pytorch device_name: cpu
+2026-02-12 16:35:09,323 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 16:35:15,454 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 16:35:16,453 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 16:35:17,619 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 16:35:17,619 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 16:35:21,648 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:35:21,952 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:35:25,987 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:35:26,309 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:35:30,129 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:35:30,573 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:35:32,788 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:35:33,506 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:35:35,309 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:35:35,684 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:35:37,236 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:35:37,512 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:35:38,603 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:35:38,815 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:38:29,451 - INFO - \U0001f6d1 Shutting down AI Engine...
+2026-02-12 16:38:42,173 - INFO - \U0001f680 Initializing AI Recommendation Pipeline...
+2026-02-12 16:38:42,173 - INFO - Initializing Hybrid Recommendation Pipeline
+2026-02-12 16:38:42,175 - INFO - Use pytorch device_name: cpu
+2026-02-12 16:38:42,175 - INFO - Load pretrained SentenceTransformer: all-MiniLM-L6-v2
+2026-02-12 16:38:47,026 - INFO - Anonymized telemetry enabled. See                     https://docs.trychroma.com/telemetry for more information.
+2026-02-12 16:38:47,186 - INFO - Extracting documents from vector store for BM25 indexing...
+2026-02-12 16:38:48,809 - INFO - Pipeline initialized successfully with Hybrid Search.
+2026-02-12 16:38:48,810 - INFO - \u2705 Pipeline loaded successfully.
+2026-02-12 16:38:50,436 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:38:50,671 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:38:50,686 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:38:50,903 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 429 Too Many Requests"
+2026-02-12 16:38:54,555 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:38:54,791 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:38:56,974 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:38:57,304 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:39:10,015 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:39:10,257 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:39:11,426 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:39:11,630 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:39:12,924 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:39:13,126 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:42:01,277 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:42:01,610 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:42:05,872 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/characters?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:42:06,527 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/characters?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:43:23,633 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:43:24,134 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:46:49,934 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:46:50,140 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 16:46:53,439 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 16:46:53,632 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 17:08:45,949 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 17:08:46,223 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 17:09:01,569 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=1 "HTTP/1.1 200 OK"
+2026-02-12 17:09:01,798 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/anime?page=2 "HTTP/1.1 200 OK"
+2026-02-12 17:09:14,785 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/characters?page=1 "HTTP/1.1 200 OK"
+2026-02-12 17:09:15,177 - INFO - HTTP Request: GET https://api.jikan.moe/v4/top/characters?page=2 "HTTP/1.1 200 OK"
+2026-02-12 17:09:30,670 - INFO - Received query: school vibes
+2026-02-12 17:09:33,067 - INFO - HTTP Request: POST https://api.groq.com/openai/v1/chat/completions "HTTP/1.1 200 OK"
+2026-02-12 17:09:33,146 - INFO - Recommendation generated successfully.
+2026-02-12 17:09:36,329 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=School%20Rumble&limit=1 "HTTP/1.1 200 OK"
+2026-02-12 17:09:36,336 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=Sakigake!!%20Cromartie%20Koukou&limit=1 "HTTP/1.1 200 OK"
+2026-02-12 17:09:36,374 - INFO - HTTP Request: GET https://api.jikan.moe/v4/anime?q=Green%20Green&limit=1 "HTTP/1.1 200 OK"
+2026-02-13 09:46:32,011 - INFO - \U0001f6d1 Shutting down AI Engine...
