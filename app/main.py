@@ -142,10 +142,10 @@ async def get_top_anime():
                 "success": True, 
                 "data": [
                     {
-                        "rank": a['rank'],
+                        "rank": i + 1,
                         "title": a['title_english'] or a['title'],
                         "score": a['score']
-                    } for a in all_anime[:50]
+                    } for i, a in enumerate(all_anime[:50])
                 ]
             }
         except Exception as e:
